@@ -5,6 +5,11 @@ dtbo-$(CONFIG_MACH_SONY_PDX201) += \
 
 trinket-seine-pdx201_generic-overlay.dtbo-base := trinket.dtb
 
+dtbo-$(CONFIG_MACH_SONY_PDX206) += \
+        sm8250-edo-pdx201_generic-overlay.dtbo
+
+sm8250-edo-pdx206_generic-overlay.dtbo-base := kona.dtb kona-v2.dtb kona-v2.1.dtb
+
 # SM8150 - SoMC Kumano
 dtbo-$(CONFIG_MACH_SONY_GRIFFIN) += \
 		sm8150-kumano-griffin_generic-overlay.dtbo
